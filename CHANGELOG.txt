@@ -1,5 +1,7 @@
 CHANGELOG - Vallis Nexus FestivalApp
 
+Versie 1.0
+
 16/06/2026
 - Begonnen met het opzetten van de FestivalApp
 - Project aangemaakt in Visual Studio
@@ -15,6 +17,8 @@ CHANGELOG - Vallis Nexus FestivalApp
 - Constructors gemaakt
 - Kleine test gedaan met losse objecten
 - Get-methodes kort getest in Program.cs
+
+versie 1.1
 
 18/06/2026
 - Persoon.cs toegevoegd
@@ -34,6 +38,8 @@ CHANGELOG - Vallis Nexus FestivalApp
 - Kleine foutjes in de code opgelost
 - Project opnieuw gestart om te kijken of er geen errors waren
 
+Versie 1.2
+
 20/06/2026
 - Locatie.cs toegevoegd
 - Podium.cs aangepast
@@ -42,6 +48,8 @@ CHANGELOG - Vallis Nexus FestivalApp
 - Test gedaan met een optreden op een podium
 - Console output kort gecontroleerd
 - ToonOptreden() getest met testgegevens
+
+Versie 2.0
 
 22/06/2026
 - Taak.cs toegevoegd
