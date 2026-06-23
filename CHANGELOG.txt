@@ -1,7 +1,5 @@
 CHANGELOG - Vallis Nexus FestivalApp
 
-Versie 1.0
-
 16/06/2026
 - Begonnen met het opzetten van de FestivalApp
 - Project aangemaakt in Visual Studio
@@ -17,8 +15,6 @@ Versie 1.0
 - Constructors gemaakt
 - Kleine test gedaan met losse objecten
 - Get-methodes kort getest in Program.cs
-
-versie 1.1
 
 18/06/2026
 - Persoon.cs toegevoegd
@@ -38,8 +34,6 @@ versie 1.1
 - Kleine foutjes in de code opgelost
 - Project opnieuw gestart om te kijken of er geen errors waren
 
-Versie 1.2
-
 20/06/2026
 - Locatie.cs toegevoegd
 - Podium.cs aangepast
@@ -48,8 +42,6 @@ Versie 1.2
 - Test gedaan met een optreden op een podium
 - Console output kort gecontroleerd
 - ToonOptreden() getest met testgegevens
-
-Versie 2.0
 
 22/06/2026
 - Taak.cs toegevoegd
@@ -63,4 +55,11 @@ Versie 2.0
 - IsVolledigIngevuld() getest
 
 23/06/2026
-- Repository klasses aangemaakt: TaakRepository, OptredenRepository, ArtiestRepository
+- Repository klasses aangemaakt: TaakRepository, OptredenRepository
+- Softwareversie 2.0 tussentijds getest
+- Artiest, vrijwilliger, podium, optreden, locatie en taak getest met testobjecten
+- Gecontroleerd of ToonInfo(), ToonOptreden(), ToonLocatie() en ToonDetails() correct werken
+- Gecontroleerd of polymorfisme bij ToonInfo() wordt toegepast
+- IsVolledigIngevuld() getest voor verplichte velden bij taken
+- MeldAf() getest om te controleren of een taak de status Afgemeld krijgt
+- Testresultaten verwerkt in het acceptatierapport
