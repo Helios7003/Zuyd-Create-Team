@@ -71,3 +71,21 @@ Versie 2.0
 - IsVolledigIngevuld() getest voor verplichte velden bij taken
 - MeldAf() getest om te controleren of een taak de status Afgemeld krijgt
 - Testresultaten verwerkt in het acceptatierapport
+
+Versie 2.1
+
+24/06/2026
+- Begonnen met de repositorylaag voor de FestivalApp
+- ArtiestRepository toegevoegd
+- Databaseverbinding met SQL Server toegevoegd
+- GetAlleArtiesten() gekoppeld aan de database
+- VoegArtiestToe() toegevoegd
+- WijzigArtiest() toegevoegd
+- VerwijderArtiest() toegevoegd
+- Parameters gebruikt bij SQL queries
+- GetAlleArtiesten() getest voor het ophalen van artiesten uit de database
+- VoegArtiestToe() getest voor het toevoegen van een artiest
+- WijzigArtiest() getest voor het wijzigen van een artiestnaam en genre
+- VerwijderArtiest() getest voor het verwijderen van een artiest
+- Testresultaten verwerkt in het acceptatierapportrt
+
