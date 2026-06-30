@@ -1,0 +1,122 @@
+CHANGELOG - Vallis Nexus FestivalApp
+
+Versie 1.0
+
+16/06/2026
+- Begonnen met het opzetten van de FestivalApp
+- Project aangemaakt in Visual Studio
+- Eerste classes aangemaakt
+- Artiest.cs, Podium.cs en Optreden.cs gemaakt
+- Gekeken welke gegevens nodig zijn voor het programma
+
+17/06/2026
+- Artiest.cs verder ingevuld
+- Podium.cs verder ingevuld
+- Optreden.cs verder ingevuld
+- Properties toegevoegd aan de classes
+- Constructors gemaakt
+- Kleine test gedaan met losse objecten
+- Get-methodes kort getest in Program.cs
+
+versie 1.1
+
+18/06/2026
+- Persoon.cs toegevoegd
+- Artiest laten overerven van Persoon
+- Vrijwilliger.cs toegevoegd
+- Vrijwilliger ook laten overerven van Persoon
+- ToonInfo() toegevoegd
+- Gekeken of overerving goed werkte
+- ToonInfo() getest bij Artiest en Vrijwilliger
+
+19/06/2026
+- Properties aangepast met private set
+- Inkapseling beter toegepast
+- Artiest.cs aangepast
+- Vrijwilliger.cs aangepast
+- Optreden.cs gecontroleerd
+- Kleine foutjes in de code opgelost
+- Project opnieuw gestart om te kijken of er geen errors waren
+
+Versie 1.2
+
+20/06/2026
+- Locatie.cs toegevoegd
+- Podium.cs aangepast
+- Gekeken hoe Podium en Locatie samen werken
+- Optreden.cs aangepast met Artiest en Podium
+- Test gedaan met een optreden op een podium
+- Console output kort gecontroleerd
+- ToonOptreden() getest met testgegevens
+
+Versie 2.0
+
+22/06/2026
+- Taak.cs toegevoegd
+- TaakNaam, datum, begintijd en eindtijd toegevoegd
+- Locatie en status toegevoegd aan Taak
+- Methode gemaakt om taakdetails te tonen
+- Methode gemaakt om af te melden
+- Gekeken of Taak past bij Vrijwilliger
+- ToonDetails() getest met een testtaak
+- MeldAf() getest om te kijken of de status verandert
+- IsVolledigIngevuld() getest
+
+23/06/2026
+- Repository klasses aangemaakt: TaakRepository, OptredenRepository
+- Softwareversie 2.0 tussentijds getest
+- Artiest, vrijwilliger, podium, optreden, locatie en taak getest met testobjecten
+- Gecontroleerd of ToonInfo(), ToonOptreden(), ToonLocatie() en ToonDetails() correct werken
+- Gecontroleerd of polymorfisme bij ToonInfo() wordt toegepast
+- IsVolledigIngevuld() getest voor verplichte velden bij taken
+- MeldAf() getest om te controleren of een taak de status Afgemeld krijgt
+- Testresultaten verwerkt in het acceptatierapport
+
+Versie 2.1
+
+24/06/2026
+- Begonnen met de repositorylaag voor de FestivalApp
+- ArtiestRepository toegevoegd
+- Databaseverbinding met SQL Server toegevoegd
+- GetAlleArtiesten() gekoppeld aan de database
+- VoegArtiestToe() toegevoegd
+- WijzigArtiest() toegevoegd
+- VerwijderArtiest() toegevoegd
+- Parameters gebruikt bij SQL queries
+- GetAlleArtiesten() getest voor het ophalen van artiesten uit de database
+- VoegArtiestToe() getest voor het toevoegen van een artiest
+- WijzigArtiest() getest voor het wijzigen van een artiestnaam en genre
+- VerwijderArtiest() getest voor het verwijderen van een artiest
+- Testresultaten verwerkt in het acceptatierapportrt
+
+Versie 2.2
+
+25/06/2026
+- Nieuwe database account getest en database verbinding getest
+- OptredenRepository toegevoegd
+- Databaseverbinding met SQL Server toegevoegd voor optredens
+- GetAlleOptredens() gekoppeld aan de database
+- ZoekOpArtiest() toegevoegd voor het zoeken naar optredens op artiestnaam
+- FilterOpPodium() toegevoegd voor het filteren van optredens op podium
+- ARTIEST, PODIUM en OPTREDEN gekoppeld in de query
+- Databasegegevens omgezet naar Artiest, Podium en Optreden objecten
+
+28/06/2026
+- Program.cs uitgebreid met testmethodes voor OptredenRepository
+- ToonProgramma() toegevoegd
+- ZoekOpArtiest() toegevoegd
+- FilterOpPodium() toegevoegd
+- GetAlleOptredens() getest voor het ophalen van alle optredens
+- ZoekOpArtiest() getest voor het zoeken naar optredens
+- FilterOpPodium() getest voor het filteren op podium
+- Testresultaten verwerkt in het acceptatierapport
+
+versie 2.3
+29/06/2026
+- Databasewachtwoord uit de repositoryklassen gehaald
+- Program.cs aangepast zodat het databasewachtwoord bij het starten wordt gevraagd
+- ArtiestRepository aangepast zodat het wachtwoord via de constructor wordt meegegeven
+- OptredenRepository aangepast zodat het wachtwoord via de constructor wordt meegegeven
+- Connection string wordt nu opgebouwd zonder hardcoded wachtwoord
+- Security van de databaseverbinding verbeterd
+- Getest of de repositories nog verbinding kunnen maken met de Azure SQL database
